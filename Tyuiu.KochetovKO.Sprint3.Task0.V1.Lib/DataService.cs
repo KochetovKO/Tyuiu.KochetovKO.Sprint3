@@ -10,7 +10,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task0.V1.Lib
             int i = 0; 
             for (i = startValue; i <= stopValue; i++) 
             {
-                SumSeries = (value * value * i) + 1;
+                SumSeries = SumSeries + (Math.Pow(value, 2) * i) + 1;
             }
             return Math.Round(SumSeries, 3);
         }
