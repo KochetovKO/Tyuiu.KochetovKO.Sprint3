@@ -7,7 +7,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task0.V1.Lib
         {
             
             double SumSeries = 0;
-            int i = 0;
+            int i = 0; 
             for (i = startValue; i <= stopValue; i++)
             {
                 SumSeries = (value * value * i) + 1;
