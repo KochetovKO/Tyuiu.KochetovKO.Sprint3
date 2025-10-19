@@ -11,7 +11,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task1.V5
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт 2 | выполнил: Кочетов К.О. | ИСПБ-25-1";
+            Console.Title = "Спринт 3 | выполнил: Кочетов К.О. | ИСПБ-25-1";
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("Спринт №3                                                                       ");
             Console.WriteLine("Тема: Оператор цикла While                                                      ");
@@ -30,15 +30,15 @@ namespace Tyuiu.KochetovKO.Sprint3.Task1.V5
             int startValue = 1;
             int stopValue = 10;
    
-            Console.WriteLine("Старт шага : " + startValue);
-            Console.WriteLine("Конец шага : " + stopValue);
+            Console.WriteLine("Старт шага :" + startValue);
+            Console.WriteLine("Старт шага :" + stopValue);
 
             var res = ds.GetMultiplySeries(startValue, stopValue);
 
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("РЕЗУЛЬТАТ :                                                                     ");
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("Результат = " + res);
+            Console.WriteLine(res);
 
             Console.ReadKey();
 
