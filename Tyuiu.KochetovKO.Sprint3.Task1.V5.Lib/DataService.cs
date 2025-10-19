@@ -6,11 +6,14 @@ namespace Tyuiu.KochetovKO.Sprint3.Task1.V5.Lib
         public double GetMultiplySeries(int startValue, int stopValue)
         {
             double multiValue = 1;
-            while (startValue <= stopValue)
+            int k = startValue;
+
+            while (k <= stopValue)
             {
-                multiValue = multiValue * Math.Cos(0.1) + (1 / startValue * startValue); 
-                startValue++;
+                multiValue *= Math.Cos(0.1) + (1.0 / (k * k));
+                k++;
             }
+
             return Math.Round(multiValue, 3);
         }  
     }

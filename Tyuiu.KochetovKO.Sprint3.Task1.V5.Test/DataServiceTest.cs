@@ -11,7 +11,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task1.V5.Test
             int startValue = 1;
             int stopValue = 10;
             
-            double wait = 1;
+            double wait = 11.95;
 
             double res = ds.GetMultiplySeries(startValue, stopValue);
 
