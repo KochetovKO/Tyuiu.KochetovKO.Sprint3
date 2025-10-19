@@ -8,7 +8,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task1.V5.Lib
             double multiValue = 1;
             while (startValue <= stopValue)
             {
-                multiValue = multiValue + Math.Cos(0.1) + Math.Pow(startValue, -2);
+                multiValue = multiValue * Math.Cos(0.1) + (1 / startValue * startValue); 
                 startValue++;
             }
             return Math.Round(multiValue, 3);
