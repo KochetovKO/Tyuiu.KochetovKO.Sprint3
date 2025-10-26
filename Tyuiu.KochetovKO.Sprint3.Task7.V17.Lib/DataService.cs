@@ -12,7 +12,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task7.V17.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Sin(x) / x + 1.7 - Math.Cos(x) * 4 * x - 6;
+                y = (Math.Sin(x) / (x + 1.7)) - Math.Cos(x) * 4 * x - 6;
                 valueArray[count] = y;
                 count++;
 
