@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.KochetovKO.Sprint3.Task4.V29.Lib;
-namespace Tyuiu.KochetovKO.Sprint3.Task4.V29
+using Tyuiu.KochetovKO.Sprint3.Task6.V10.Lib;
+namespace Tyuiu.KochetovKO.Sprint3.Task6.V10
 {
     class Program
     {
         static void Main(string[] args)
         {
+
             DataService ds = new DataService();
             Console.Title = "Спринт 3 | выполнил: Кочетов К.О. | ИСПБ-25-1";
             Console.WriteLine("********************************************************************************");
@@ -30,23 +31,12 @@ namespace Tyuiu.KochetovKO.Sprint3.Task4.V29
             int startValue = 20;
             int stopValue = 32;
 
-            var res = ds.Calculate(startValue, stopValue);
+            var res = ds.GetSumTheDivisors(startValue, stopValue);
 
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("РЕЗУЛЬТАТ :                                                                     ");
             Console.WriteLine("********************************************************************************");
             Console.WriteLine(res);
-
-
-
-
-
-
-
-
-
-
-
 
         }
     }
