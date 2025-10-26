@@ -1,5 +1,5 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint3;
-namespace Tyuiu.KochetovKO.Sprint3Task5.V19.Lib
+namespace Tyuiu.KochetovKO.Sprint3.Task5.V19.Lib
 {
     public class DataService : ISprint3Task5V19
     {
@@ -11,12 +11,12 @@ namespace Tyuiu.KochetovKO.Sprint3Task5.V19.Lib
             {
                 for (j = startValue2; j <= stopValue2; j++)
                 {
-                    
+
                     res = res + Math.Pow((x / Math.Cos(x)), j);
 
                 }
-            
-            
+
+
             }
             return Math.Round(res, 3);
         }
