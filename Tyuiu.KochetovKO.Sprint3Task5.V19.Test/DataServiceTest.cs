@@ -6,7 +6,7 @@ namespace Tyuiu.KochetovKO.Sprint3Task5.V19.Test
     {
         [TestMethod]
         public void TestMethod1()
-        {
+        { 
             DataService ds = new DataService();
             int x = 2;
             int startValue1 = 1;
