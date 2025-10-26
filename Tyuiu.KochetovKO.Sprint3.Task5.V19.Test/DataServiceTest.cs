@@ -1,12 +1,12 @@
 ﻿using Tyuiu.KochetovKO.Sprint3.Task5.V19.Lib;
-namespace Tyuiu.KochetovKO.Sprint3Task5.V19.Test
+namespace Tyuiu.KochetovKO.Sprint3.Task5.V19.Test
 {
     [TestClass]
     public sealed class DataServiceTest
     {
         [TestMethod]
         public void TestMethod1()
-        { 
+        {
             DataService ds = new DataService();
             int x = 2;
             int startValue1 = 1;
@@ -18,13 +18,6 @@ namespace Tyuiu.KochetovKO.Sprint3Task5.V19.Test
             double wait = 30598.002;
 
             Assert.AreEqual(wait, res);
-
-
-
-
-
-
-
         }
     }
 }
