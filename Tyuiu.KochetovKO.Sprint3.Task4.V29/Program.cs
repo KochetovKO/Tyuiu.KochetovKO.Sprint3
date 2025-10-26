@@ -35,7 +35,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task4.V29
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("РЕЗУЛЬТАТ :                                                                     ");
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("0.0");
+            Console.WriteLine(res);
 
 
 

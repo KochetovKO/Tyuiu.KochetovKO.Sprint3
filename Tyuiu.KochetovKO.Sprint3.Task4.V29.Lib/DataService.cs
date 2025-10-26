@@ -10,7 +10,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task4.V29.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
 
                 else
@@ -20,7 +20,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task4.V29.Lib
 
                 
             }
-            return Math.Round(0.0, 3);
+            return Math.Round(res, 3);
         }
     }
 }
