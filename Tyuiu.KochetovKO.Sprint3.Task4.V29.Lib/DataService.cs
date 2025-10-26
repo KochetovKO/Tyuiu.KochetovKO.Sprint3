@@ -20,7 +20,7 @@ namespace Tyuiu.KochetovKO.Sprint3.Task4.V29.Lib
 
                 
             }
-            return Math.Round(res, 3);
+            return Math.Round(0.0, 3);
         }
     }
 }
